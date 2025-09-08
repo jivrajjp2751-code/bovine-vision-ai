@@ -23,7 +23,7 @@ export default {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
           hover: "hsl(var(--primary-hover))",
-          glow: "hsl(var(--primary-glow))",
+          light: "hsl(var(--primary-light))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -40,7 +40,6 @@ export default {
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
-          hover: "hsl(var(--accent-hover))",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
@@ -53,6 +52,22 @@ export default {
         success: {
           DEFAULT: "hsl(var(--success))",
           foreground: "hsl(var(--success-foreground))",
+          light: "hsl(var(--success-light))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
+          light: "hsl(var(--warning-light))",
+        },
+        calm: {
+          DEFAULT: "hsl(var(--calm))",
+          foreground: "hsl(var(--calm-foreground))",
+          light: "hsl(var(--calm-light))",
+        },
+        aggressive: {
+          DEFAULT: "hsl(var(--aggressive))",
+          foreground: "hsl(var(--aggressive-foreground))",
+          light: "hsl(var(--aggressive-light))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
@@ -89,17 +104,19 @@ export default {
         },
       },
       backgroundImage: {
-        "gradient-primary": "var(--gradient-primary)",
-        "gradient-hero": "var(--gradient-hero)",
-        "gradient-success": "var(--gradient-success)",
+        "gradient-nature": "var(--gradient-nature)",
+        "gradient-warm": "var(--gradient-warm)",
+        "gradient-calm": "var(--gradient-calm)",
+        "gradient-soft": "var(--gradient-soft)",
       },
       boxShadow: {
-        agricultural: "var(--shadow-agricultural)",
-        card: "var(--shadow-card)",
+        nature: "var(--shadow-nature)",
+        warm: "var(--shadow-warm)",
+        soft: "var(--shadow-soft)",
         glow: "var(--shadow-glow)",
       },
       transitionTimingFunction: {
-        smooth: "var(--transition-smooth)",
+        nature: "var(--transition-nature)",
         bounce: "var(--transition-bounce)",
       },
       animation: {

@@ -119,12 +119,16 @@ const simulateWildlifeClassification = (file: File): Promise<any> => {
 type ViewState = 'main' | 'results';
 
 const Index = () => {
+  console.log("Index component rendering...");
   const [currentView, setCurrentView] = useState<ViewState>('main');
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [uploadedImage, setUploadedImage] = useState<string | null>(null);
   const [analysisResult, setAnalysisResult] = useState<any>(null);
 
+  console.log("Current view:", currentView);
+
   const handleImageUploaded = async (file: File, preview: string) => {
+    console.log("Image uploaded, processing...");
     setUploadedImage(preview);
     setIsAnalyzing(true);
 
@@ -160,6 +164,8 @@ const Index = () => {
     setIsAnalyzing(false);
   };
 
+  console.log("Rendering Index component");
+  
   return (
     <div className="min-h-screen bg-background">
       <Navigation />

@@ -54,6 +54,10 @@ export default {
           DEFAULT: "hsl(var(--success))",
           foreground: "hsl(var(--success-foreground))",
         },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -90,13 +94,13 @@ export default {
       },
       backgroundImage: {
         "gradient-primary": "var(--gradient-primary)",
-        "gradient-hero": "var(--gradient-hero)",
+        "gradient-nature": "var(--gradient-nature)",
         "gradient-success": "var(--gradient-success)",
       },
       boxShadow: {
-        agricultural: "var(--shadow-agricultural)",
+        soft: "var(--shadow-soft)",
         card: "var(--shadow-card)",
-        glow: "var(--shadow-glow)",
+        warm: "var(--shadow-warm)",
       },
       transitionTimingFunction: {
         smooth: "var(--transition-smooth)",

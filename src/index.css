@@ -8,56 +8,60 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Agricultural Professional Color System */
-    --background: 0 0% 100%;
-    --foreground: 140 8% 15%;
+    /* Nature-Inspired Warm Color System */
+    --background: 46 45% 97%;
+    --foreground: 25 15% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 140 8% 15%;
+    --card-foreground: 25 15% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 140 8% 15%;
+    --popover-foreground: 25 15% 15%;
 
-    /* Primary: Deep Agricultural Green */
-    --primary: 140 65% 25%;
+    /* Primary: Forest Green */
+    --primary: 140 35% 35%;
     --primary-foreground: 0 0% 98%;
-    --primary-hover: 140 65% 20%;
-    --primary-glow: 140 65% 35%;
+    --primary-hover: 140 35% 30%;
+    --primary-glow: 140 35% 45%;
 
-    /* Secondary: Earth Tone */
-    --secondary: 35 25% 85%;
-    --secondary-foreground: 140 8% 15%;
+    /* Secondary: Warm Earth Brown */
+    --secondary: 25 35% 75%;
+    --secondary-foreground: 25 15% 15%;
 
-    --muted: 35 15% 92%;
-    --muted-foreground: 140 8% 45%;
+    --muted: 46 25% 92%;
+    --muted-foreground: 25 10% 45%;
 
-    /* Accent: Professional Blue */
-    --accent: 210 85% 45%;
+    /* Accent: Nature Blue */
+    --accent: 200 35% 45%;
     --accent-foreground: 0 0% 98%;
-    --accent-hover: 210 85% 40%;
+    --accent-hover: 200 35% 40%;
 
-    /* Success: Vibrant Green */
-    --success: 140 80% 40%;
+    /* Success: Calm Green */
+    --success: 140 40% 40%;
     --success-foreground: 0 0% 98%;
+
+    /* Warning: Aggressive Red */
+    --warning: 0 65% 55%;
+    --warning-foreground: 0 0% 98%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 35 15% 88%;
-    --input: 35 15% 94%;
-    --ring: 140 65% 25%;
+    --border: 46 15% 88%;
+    --input: 46 15% 94%;
+    --ring: 140 35% 35%;
 
-    --radius: 0.5rem;
+    --radius: 1rem;
 
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
-    --gradient-success: linear-gradient(135deg, hsl(var(--success)), hsl(140 80% 50%));
+    --gradient-nature: linear-gradient(135deg, hsl(140 35% 35%) 0%, hsl(46 35% 65%) 100%);
+    --gradient-success: linear-gradient(135deg, hsl(var(--success)), hsl(140 40% 50%));
     
-    /* Shadows */
-    --shadow-agricultural: 0 10px 30px -10px hsl(var(--primary) / 0.15);
-    --shadow-card: 0 4px 20px -4px hsl(var(--foreground) / 0.08);
-    --shadow-glow: 0 0 40px hsl(var(--primary-glow) / 0.3);
+    /* Soft Shadows */
+    --shadow-soft: 0 4px 20px -4px hsl(var(--primary) / 0.1);
+    --shadow-card: 0 8px 25px -5px hsl(var(--foreground) / 0.08);
+    --shadow-warm: 0 10px 40px -10px hsl(var(--primary) / 0.2);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
